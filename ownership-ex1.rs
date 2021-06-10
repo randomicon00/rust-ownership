@@ -6,4 +6,4 @@ let mut word = String::from("Hello");
 word.push_str(" there!");
 
 //The print function will output `Hello there!`
-println!("{}", word)
+println!("{}", word);

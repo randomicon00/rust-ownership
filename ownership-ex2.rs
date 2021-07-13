@@ -1,3 +1,4 @@
+/// Rust ownership example
 /// Rust has no garbage collector. 
 /// A variable is cleaned up once it goes out of scope. 
 fn main() {

@@ -1,4 +1,5 @@
 ///Rust ownership example
+
 ///Declare a String that allocates `Hello` in the heap. 
 ///Its size is then unknown at compile time.
 fn main() {

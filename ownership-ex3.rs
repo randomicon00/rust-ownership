@@ -17,5 +17,5 @@ fn main() {
   }
   //ERROR! basically, at this point, the first and second values of data were previously dropped. 
   //The data we are trying to read is now free'd memory!
-  println!("{}", data[0]);
+  //println!("{}", data[0]);  //Uncomment this line.
 }

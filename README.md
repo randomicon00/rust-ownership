@@ -1,5 +1,6 @@
 # rust-ownership
 Rust ownership examples. 
 
-I am going to publish two more examples that describe how rust ownership works.
+Still, rust ownership model which entails to how memory management is done is, in my opinion, the main innovation that the language has to offer compared to other system level programming models. 
 
+Understanding how the rust ownership model works, is, in other words, understanding how rust works. 

@@ -3,10 +3,10 @@
 /// Its size is then unknown at compile time.
 fn main() {
   
-  //Create a mutable String which data is located in the heap.
+  // Create a mutable String which data is located in the heap.
   let mut word = String::from("Hello");
   
-  //Create a mutable Vector which data is located in the heap. 
+  // Create a mutable Vector which data is located in the heap. 
   let mut numbers = vec![10u8, 20, 30];
   
   // Push str function appends a literal ("hardcoded strings") to our word of type String.

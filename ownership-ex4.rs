@@ -14,8 +14,11 @@ fn get_static_ref() -> &'static MyStruct {
         c: true,
     });
     
+    // Get a raw pointer and disable the borrow checker
     let ptr = Box::into_raw(my_struct);
     
+    // Dereference the raw pointer and coerce the reference
+    // to the static lifetime.
     unsafe { &*ptr }
 }
 

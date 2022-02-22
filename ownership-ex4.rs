@@ -24,5 +24,7 @@ fn get_static_ref() -> &'static MyStruct {
 
 fn main() {
     let my_static_ref = get_static_ref();
+    
     println!("{:?}", my_static_ref);
-}
+    
+} // <--- the static reference gets dropped at the end of the program

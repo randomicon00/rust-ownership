@@ -27,4 +27,4 @@ fn main() {
     
     println!("{:?}", my_static_ref);
     
-} // <--- the static reference gets dropped at the end of the program
+} // <--- the static reference gets dropped at the end of the main thread program execution

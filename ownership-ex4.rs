@@ -1,3 +1,4 @@
+/// How to create a static reference off a struct.
 #![allow(dead_code)]
 
 #[derive(Debug)]

@@ -1,4 +1,6 @@
 /// How to create a static reference off a struct.
+/// TODO Add the case where the reference is mutable reference.
+
 #![allow(dead_code)]
 
 #[derive(Debug)]

@@ -3,7 +3,7 @@
 /// Its size is then unknown at compile time.
 fn main() {
   // Create a mutable String which data is located in the heap.
-  let mut word = String::from("Hello");
+  let mut word = String::from("Hello,");
   
   // Create a mutable Vector which data is located in the heap. 
   let mut numbers = vec![10u8, 20, 30];
@@ -15,5 +15,6 @@ fn main() {
   numbers.push(40);
   
   println!("{}", word);       // The print function will output `Hello there!`
+  
   println!("{:?}", numbers);  // The print function will output `[10, 20, 30, 40]`
 }

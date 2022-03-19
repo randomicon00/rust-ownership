@@ -1,5 +1,5 @@
-/// Rust ownership example
-/// Rust has no garbage collector. 
+/// Rust has no garbage collector.
+/// It uses the RIIA princple which is the acronym for Resource Acquisition Is Initialization 
 /// A variable is cleaned up once it goes out of scope. 
 fn main() {
    let mut mutable_vector = vec![1, 2, 3, 4, 5, 6];

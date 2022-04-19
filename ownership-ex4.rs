@@ -1,4 +1,6 @@
-/// How to create a static reference off a struct.
+/// A short example about how to create a static reference off a struct.
+/// To do so, we get a raw pointer from a Box, which frees us up from 
+/// the borrow checker's rules.  
 #![allow(dead_code)]
 
 #[derive(Debug)]
@@ -14,9 +16,12 @@ fn get_static_ref() -> &'static MyStruct {
         b: "foo".to_owned(),
         c: true,
     });
-    
+   
     // Get a raw pointer and disable the borrow checker
+    // SAFETY: Accessing the following value through a static immutable reference which
+    // ensures that the value behind the reference will never be null or undefined.
     let ptr = Box::into_raw(my_struct);
+    
     
     // Dereference the raw pointer and coerce the reference
     // to the static lifetime.

@@ -33,4 +33,4 @@ fn main() {
     
     println!("{:?}", my_static_ref);
     
-} // <--- the static reference gets dropped at the end of the main thread program execution
+} // <--- the static reference is dropped at the end of the main thread program execution i.e. 'static lifetime == duration of main thread

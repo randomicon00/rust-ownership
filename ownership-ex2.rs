@@ -1,4 +1,4 @@
-/// Rust has no garbage collector.
+/// Rust has no garbage collector and a very minimal `runtime`.
 /// It uses the RIIA principle which is the acronym for Resource Acquisition Is Initialization 
 /// A variable is cleaned up once it goes out of scope. 
 fn main() {
